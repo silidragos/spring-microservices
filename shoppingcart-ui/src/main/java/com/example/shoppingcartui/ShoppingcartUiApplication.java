@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 
 import com.example.shoppingcartui.filters.AuthHeadFilter;
 
-//Should be able to call GET api/catalog/products
+//Should be able to call GET api/catalog/api/products
 @EnableZuulProxy
 @SpringBootApplication
 public class ShoppingcartUiApplication {
